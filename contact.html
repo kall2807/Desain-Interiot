@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Desain Interior</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Desain Interior</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Kontak</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Informasi Kontak</h2>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Alamat Kantor</h3>
+                                <p>Jl.muharam 1 RT 05 RW 16 Mekarsari barat</p>
+                                <p>Tambun Selatan, Indonesia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Hubungi Kami</h3>
+                                <p>+62 895 4115 60995 (WhatsApp)</p>
+                                <p>Senin - Sabtu: 09:00 - 18:00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>info@interiorbuild.com</p>
+                                <p>support@interiorbuild.com</p>
+                                <p>Respon 24 jam</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h3>Ikuti Kami</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Kirim Pesan</h2>
+                    <form id="contactForm" class="form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"></label>
+                                <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email"></label>
+                                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone"></label>
+                                <input type="tel" id="phone" name="phone" placeholder="+62 812-3456-7890">
+                            </div>
+                            
+                            <div class="form-group service-select">
+                                <label for="service"></label>
+                                <select id="service" name="service">
+                                    <option value="">-- Pilih Layanan --</option>
+                                    <option value="interior">Desain Interior</option>
+                                    <option value="construction">Konstruksi Bangunan</option>
+                                    <option value="furniture">Furniture Custom</option>
+                                    <option value="renovation">Renovasi & Remodeling</option>
+                                    <option value="consultation">Konsultasi Desain</option>
+                                    <option value="management">Project Management</option>
+                                    <option value="other">Lainnya</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Pesan *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Ceritakan tentang proyek desain yang Anda inginkan..." required></textarea>
+                        </div>
+  
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> <span>Kirim Pesan</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Temukan Kami</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d729.2727956585537!2d107.0574750288368!3d-6.253759893947242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sid!2sid!4v1772944186724!5m2!1sid!2sid" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 102, 204, 0.1);" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+                    <div class="faq-answer">
+                        <p>Ya, kami menyediakan layanan maintenance dengan paket bulanan atau tahunan. Layanan ini mencakup perawatan rutin, perbaikan kecil, dan konsultasi lanjutan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap Memulai Proyek Desain Anda?</h2>
+                <p>Hubungi kami sekarang untuk diskusi lebih lanjut tentang kebutuhan desain interior dan konstruksi ruang impian Anda</p>
+                <div class="cta-buttons">
+                    <a href="tel:+622112345678" class="btn btn-primary">
+                        <i class="fas fa-phone"></i> +62 895 4115 60995
+                    </a>
+                    <a href="mailto:info@interiorspace.com" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> info@Desain-interior.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Desain Interior</h3>
+                    <p>Solusi desain interior dan konstruksi bangunan terpercaya untuk ruang impian Anda</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang</a></li>
+                        <li><a href="services.html">Layanan</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="services.html">Desain Interior</a></li>
+                        <li><a href="services.html">Konstruksi</a></li>
+                        <li><a href="services.html">Furniture</a></li>
+                        <li><a href="services.html">Renovasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Bekasi,Tambun Selatan, Indonesia</p>
+                    <p><i class="fas fa-phone"></i> +62 895 4115 60995</p>
+                
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 InteriorSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/contact-form.js"></script>
+</body>
+</html>
